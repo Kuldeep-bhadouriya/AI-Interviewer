@@ -1,0 +1,10 @@
+[project]
+name = "agent"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "livekit-agents[anthropic,hedra,images,silero,simli,turn-detector]~=1.4",
+    "livekit-plugins-groq>=1.4.4",
+    "livekit-plugins-noise-cancellation~=0.2",
+    "python-dotenv>=1.2.2",
+]

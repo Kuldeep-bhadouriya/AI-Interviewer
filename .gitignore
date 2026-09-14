@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+.venv/
+
+# Environment files (contain API keys)
+.env
+.env.local
+.env*.local
+
+# Build output
+.next/
+out/
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# uv
+.python-version
